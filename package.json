@@ -1,6 +1,10 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "yarcl",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
     "lerna": "^3.10.5"
   }
