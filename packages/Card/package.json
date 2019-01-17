@@ -1,5 +1,5 @@
 {
-  "name": "Card",
+  "name": "yaarcl_Card",
   "version": "1.0.3",
   "description": "",
   "main": "index.js",
@@ -10,9 +10,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "Button": "^1.0.3",
+    "yaarcl_Button": "^1.0.3",
     "react": "^16.7.0",
     "styled-components": "^4.1.3"
   },
-  "gitHead": "5f5034ffe6321958886b30cc5139991c8a452b67"
+  "gitHead": "a9c78412287fe7ec0cb897fe1d2fa8bf450053d2"
 }
