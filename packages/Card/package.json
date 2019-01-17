@@ -10,8 +10,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "Button": "^1.0.0",
     "react": "^16.7.0",
-    "styled-components": "^4.1.3",
-    "Button": "1.0.0"
+    "styled-components": "^4.1.3"
   }
 }
