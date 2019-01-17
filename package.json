@@ -1,11 +1,23 @@
 {
   "name": "yarcl",
   "version": "1.0.0",
-  "description": "",
   "keywords": [],
-  "author": "",
+  "author": "srikar0896",
   "license": "ISC",
   "devDependencies": {
     "lerna": "^3.10.5"
-  }
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/srikar0896/yarcl.git"
+  },
+  "bugs": {
+    "url": "https://github.com/srikar0896/yarcl/issues"
+  },
+  "homepage": "https://github.com/srikar0896/yarcl#readme",
+  "description": ""
 }
