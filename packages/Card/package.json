@@ -12,7 +12,7 @@
   "dependencies": {
     "react": "^16.7.0",
     "styled-components": "^4.1.3",
-    "yaarcl_Button": "^1.0.5"
+    "yaarcl_Button": "1.0.0"
   },
   "gitHead": "76868422a237cac0d184e9a3de2dbb9ded577330"
 }
