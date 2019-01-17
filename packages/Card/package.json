@@ -1,5 +1,5 @@
 {
-  "name": "yaarcl_Card",
+  "name": "Card",
   "version": "1.0.2",
   "description": "",
   "main": "index.js",
@@ -14,5 +14,5 @@
     "react": "^16.7.0",
     "styled-components": "^4.1.3"
   },
-  "gitHead": "ba9368a479362c32eb090ee967b324edc80b2682"
+  "gitHead": "5f5034ffe6321958886b30cc5139991c8a452b67"
 }
