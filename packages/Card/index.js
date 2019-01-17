@@ -8,10 +8,12 @@ const StyledCard = styled.div`
   width: 220px;
 `;
 
-export default (props) => {
+function Card (props) {
   return (
     <StyledCard>
       This is Awesome Card
     </StyledCard>
   );
 };
+
+module.exports = Card;

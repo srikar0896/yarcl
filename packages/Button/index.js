@@ -6,10 +6,12 @@ const StyledButton = styled.div`
   color: white;
 `;
 
-export default (props) => {
+function Button (props) {
   return (
     <StyledButton>
       Click me
     </StyledButton>
   )
 };
+
+module.exports = Button;
