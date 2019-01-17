@@ -1,6 +1,6 @@
 {
   "name": "yaarcl_Button",
-  "version": "1.0.5",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,5 @@
     "react": "^16.7.0",
     "styled-components": "^4.1.3"
   },
-  "gitHead": "348661c42616dc3ba41d90afdca2f39bed1bb00d"
+  "gitHead": "76868422a237cac0d184e9a3de2dbb9ded577330"
 }
