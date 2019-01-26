@@ -1,5 +1,5 @@
 import { StyledIconButton } from '../StyledComponents/Button';
-import theme from '../../theme';
+import theme from '../theme';
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Spinner } from '../Spinner';

@@ -4,7 +4,7 @@ import {
   StyledSolidButton,
   SpinnerContainer,
 } from '../StyledComponents/Button';
-import theme from '../../theme';
+import theme from '../theme';
 import PropTypes from 'prop-types';
 import { Spinner } from '../Spinner';
 import Icon from '../icons';
