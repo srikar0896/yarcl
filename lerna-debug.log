@@ -1,0 +1,104 @@
+0 silly argv { _: [ 'publish' ],
+0 silly argv   composed: 'publish',
+0 silly argv   lernaVersion: '3.10.5',
+0 silly argv   '$0': '/usr/local/bin/lerna' }
+1 notice cli v3.10.5
+2 verbose rootPath /Users/bizongo-user/Desktop/react/personal/yarcl
+3 verbose session e5f26c3da83562cf
+4 verbose user-agent lerna/3.10.5/node@v10.6.0+x64 (darwin)
+5 verbose git-describe undefined => "v1.0.5-2-g60e00de"
+6 silly git-describe parsed => {"lastTagName":"v1.0.5","lastVersion":"v1.0.5","refCount":"2","sha":"60e00de","isDirty":false}
+7 silly argv { _: [ 'publish' ], composed: 'publish', lernaVersion: '3.10.5' }
+8 verbose rootPath /Users/bizongo-user/Desktop/react/personal/yarcl
+9 info current version 1.0.5
+10 silly isAnythingCommitted
+11 verbose isAnythingCommitted 1
+12 silly currentBranch
+13 verbose currentBranch master
+14 silly remoteBranchExists
+15 silly isBehindUpstream
+16 silly isBehindUpstream master is behind origin/master by 0 commit(s) and ahead by 2
+17 silly hasTags
+18 verbose hasTags true
+19 silly git-describe.sync "v1.0.5-2-g60e00de" => {"lastTagName":"v1.0.5","lastVersion":"v1.0.5","refCount":"2","sha":"60e00de","isDirty":false}
+20 info Looking for changed packages since v1.0.5
+21 silly diffSinceIn v1.0.5 packages/Button
+22 silly diff packages/Button/package.json
+23 silly diffSinceIn v1.0.5 packages/Card
+24 silly diff packages/Card/package.json
+25 verbose updated yaarcl_Button
+26 verbose updated yaarcl_Card
+27 verbose git-describe undefined => "v1.0.5-2-g60e00de"
+28 silly git-describe parsed => {"lastTagName":"v1.0.5","lastVersion":"v1.0.5","refCount":"2","sha":"60e00de","isDirty":false}
+29 silly batched [ PackageGraphNode {
+29 silly batched     name: 'yaarcl_Button',
+29 silly batched     externalDependencies: Map { 'react' => [Object], 'styled-components' => [Object] },
+29 silly batched     localDependencies: Map {},
+29 silly batched     localDependents: Map { 'yaarcl_Card' => [PackageGraphNode] } } ]
+30 silly batched [ PackageGraphNode {
+30 silly batched     name: 'yaarcl_Card',
+30 silly batched     externalDependencies: Map { 'react' => [Object], 'styled-components' => [Object] },
+30 silly batched     localDependencies: Map {},
+30 silly batched     localDependents: Map {} } ]
+31 silly lifecycle No script for "preversion" in "yaarcl", continuing
+32 silly lifecycle No script for "preversion" in "yaarcl_Button", continuing
+33 silly lifecycle No script for "version" in "yaarcl_Button", continuing
+34 silly lifecycle No script for "preversion" in "yaarcl_Card", continuing
+35 silly lifecycle No script for "version" in "yaarcl_Card", continuing
+36 silly lifecycle No script for "version" in "yaarcl", continuing
+37 silly gitAdd [ '/Users/bizongo-user/Desktop/react/personal/yarcl/packages/Button/package.json',
+37 silly gitAdd   '/Users/bizongo-user/Desktop/react/personal/yarcl/packages/Card/package.json',
+37 silly gitAdd   '/Users/bizongo-user/Desktop/react/personal/yarcl/lerna.json' ]
+38 silly gitCommit v1.0.6
+39 verbose git [ 'commit', '-m', 'v1.0.6' ]
+40 silly gitTag v1.0.6
+41 verbose git [ 'tag', 'v1.0.6', '-m', 'v1.0.6' ]
+42 silly lifecycle No script for "postversion" in "yaarcl_Button", continuing
+43 silly lifecycle No script for "postversion" in "yaarcl_Card", continuing
+44 silly lifecycle No script for "postversion" in "yaarcl", continuing
+45 info git Pushing tags...
+46 silly gitPush origin master
+47 silly batched [ PackageGraphNode {
+47 silly batched     name: 'yaarcl_Button',
+47 silly batched     externalDependencies: Map { 'react' => [Object], 'styled-components' => [Object] },
+47 silly batched     localDependencies: Map {},
+47 silly batched     localDependents: Map { 'yaarcl_Card' => [PackageGraphNode] } } ]
+48 silly batched [ PackageGraphNode {
+48 silly batched     name: 'yaarcl_Card',
+48 silly batched     externalDependencies: Map { 'react' => [Object], 'styled-components' => [Object] },
+48 silly batched     localDependencies: Map {},
+48 silly batched     localDependents: Map {} } ]
+49 info publish Publishing packages to npm...
+50 info Verifying npm credentials
+51 verbose Retrieving npm user profile
+52 http fetch GET 200 https://registry.npmjs.org/-/npm/v1/user 1733ms
+53 silly npm profile get received {"tfa":false,"name":"horhey264","email":"srikar.0896@gmail.com","email_verified":true,"created":"2019-01-17T21:52:07.208Z","updated":"2019-01-17T21:52:07.207Z","cidr_whitelist":null,"fullname":"srikar"}
+54 silly npm whoami received {"username":"horhey264"}
+55 silly verifyNpmPackageAccess
+56 http fetch GET 200 https://registry.npmjs.org/-/org/horhey264/package?format=cli 1229ms
+57 warn ENOLICENSE Packages yaarcl_Button, yaarcl_Card are missing a license
+58 silly getCurrentSHA
+59 verbose getCurrentSHA 385698599d5dc6600fa2e3ac988e12e75ebf38b0
+60 silly lifecycle No script for "prepublish" in "yaarcl", continuing
+61 silly lifecycle No script for "prepare" in "yaarcl", continuing
+62 silly lifecycle No script for "prepublishOnly" in "yaarcl", continuing
+63 silly lifecycle No script for "prepack" in "yaarcl", continuing
+64 verbose pack-directory packages/Button
+65 silly lifecycle No script for "prepublish" in "yaarcl_Button", continuing
+66 silly lifecycle No script for "prepare" in "yaarcl_Button", continuing
+67 silly lifecycle No script for "prepublishOnly" in "yaarcl_Button", continuing
+68 silly lifecycle No script for "prepack" in "yaarcl_Button", continuing
+69 silly lifecycle No script for "postpack" in "yaarcl_Button", continuing
+70 verbose packed yaarcl_Button packages/Button
+71 verbose pack-directory packages/Card
+72 silly lifecycle No script for "prepublish" in "yaarcl_Card", continuing
+73 silly lifecycle No script for "prepare" in "yaarcl_Card", continuing
+74 silly lifecycle No script for "prepublishOnly" in "yaarcl_Card", continuing
+75 silly lifecycle No script for "prepack" in "yaarcl_Card", continuing
+76 silly lifecycle No script for "postpack" in "yaarcl_Card", continuing
+77 verbose packed yaarcl_Card packages/Card
+78 silly lifecycle No script for "postpack" in "yaarcl", continuing
+79 verbose publish yaarcl_Button
+80 http fetch PUT 400 https://registry.npmjs.org/yaarcl_Button 1412ms
+81 error Error: 400 Bad Request - PUT https://registry.npmjs.org/yaarcl_Button - "yaarcl_Button" is invalid for new packages
+81 error     at res.buffer.catch.then.body (/usr/local/lib/node_modules/lerna/node_modules/npm-registry-fetch/check-response.js:104:15)
