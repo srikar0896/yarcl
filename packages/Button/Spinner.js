@@ -1,5 +1,5 @@
 import styled, { keyframes } from 'styled-components';
-import theme from 'config/theme';
+import theme from './theme';
 
 const spin = keyframes`
   to {transform: rotate(360deg);}
