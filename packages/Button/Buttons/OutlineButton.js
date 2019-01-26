@@ -3,7 +3,7 @@ import {
   SpinnerContainer,
   StyledOutlineButton,
 } from '../StyledComponents/Button';
-import theme from 'config/theme';
+import theme from '../../theme';
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Spinner } from '../Spinner';

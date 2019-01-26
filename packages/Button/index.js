@@ -1,17 +1,10 @@
 import React from 'react';
-import styled from 'styled-components';
 
-const StyledButton = styled.div`
-  background: purple;
-  color: white;
-`;
-
-function Button (props) {
-  return (
-    <StyledButton>
-      Click me
-    </StyledButton>
-  )
-};
+import Button, { SolidButton, OutlineButton, IconButton, TextButton } from './Buttons';
 
 module.exports = Button;
+module.exports.SolidButton = SolidButton;
+module.exports.OutlineButton = OutlineButton;
+module.exports.IconButton = IconButton;
+module.exports.TextButton = TextButton;
+
